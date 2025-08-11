@@ -7,6 +7,8 @@ function volume_sphere(event) {
 
 	if(isNaN(radius)||radius<=0){
 		//alert("Please enter a valid positive number for radius.")
+		        document.getElementById('volume').value = 'NaN';
+
 		return false;
 	}
 
